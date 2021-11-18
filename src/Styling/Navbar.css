@@ -1,0 +1,12 @@
+nav {
+    background-color: #F55A5A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav--img {
+    width: 30px;
+    margin-right: 10px;
+}
