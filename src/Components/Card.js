@@ -3,13 +3,17 @@ import "../Styling/Card.css"
 
 const Card = (props) => {
     return ( 
-        <section>
-            <img src={props.element.imageUrl}/>
-            <img src={locationPin} className="location-pin-img"/>
-            <p>{props.element.location}</p>
-            <h1>{props.element.title}</h1>
-            <p>{props.element.startDate} - {props.element.endDate}</p>
-            <p>{props.element.description}</p>
+        <section className="card">
+            <img src={props.element.imageUrl} className="card--img" alt="location"/>
+            <div className="location-info">
+                <div className="location-name">
+                    <img src={locationPin} className="location-pin-img" alt="location-pin"/>
+                    <p>{props.element.location}</p>
+                </div>
+                <h1>{props.element.title}</h1>
+                <p className="location-info--dates">{props.element.startDate} - {props.element.endDate}</p>
+                <p>{props.element.description}</p>
+            </div>
         </section>
      );
 }

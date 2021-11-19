@@ -1,11 +1,10 @@
 nav {
     background-color: #F55A5A;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1em;
 }
-
 .nav--img {
     width: 30px;
     margin-right: 10px;
