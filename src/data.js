@@ -6,7 +6,8 @@ export default [
         title: "Colosseum",
         startDate: "12 Jan, 2022",
         endDate: "24 Jan, 2022",
-        description: "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age."
+        description: "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age.",
+        favorite: false
     },
     {   
         id: 2,
@@ -15,7 +16,8 @@ export default [
         title: "The Great Pyramid of Giza",
         startDate: "25 Jan, 2022",
         endDate: "7 Feb, 2022",
-        description: "The Great Pyramid of Giza is the oldest and largest of the pyramids in the Giza pyramid complex bordering present-day Giza in Greater Cairo, Egypt. It is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact."
+        description: "The Great Pyramid of Giza is the oldest and largest of the pyramids in the Giza pyramid complex bordering present-day Giza in Greater Cairo, Egypt. It is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact.",
+        favorite: false
     },
     {   
         id: 3,
@@ -24,6 +26,7 @@ export default [
         title: "Machu Picchu",
         startDate: "8 Feb, 2022",
         endDate: "18 Mar, 2022",
-        description: "Machu Picchu is an Incan citadel set in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views."
+        description: "Machu Picchu is an Incan citadel set in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views.",
+        favorite: false
     }
 ]
