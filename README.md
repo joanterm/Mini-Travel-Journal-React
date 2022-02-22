@@ -6,4 +6,4 @@
 * CSS
 
 
-![screenshot]("./screenshot.png")
+![project-screenshot](./src/screenshot.png)
