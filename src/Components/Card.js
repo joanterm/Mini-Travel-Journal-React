@@ -26,7 +26,7 @@ const Card = (props) => {
                     <p className="location-info--dates">{props.element.startDate} - {props.element.endDate}</p>
                     <p>{props.element.description}</p>
                     <div className="location-info--favorite">
-                        {newFavorite ? <img className="location-info--favorite--heart" src={redHeart} onClick={toggleFavorite}/> : <img className="location-info--favorite--heart" src={emptyHeart} onClick={toggleFavorite}/>}
+                        {newFavorite ? <img className="location-info--favorite--heart" src={redHeart} onClick={toggleFavorite} alt="favorite-icon"/> : <img className="location-info--favorite--heart" src={emptyHeart} onClick={toggleFavorite} alt="favorite-icon"/>}
                     </div>
                 </div>
             </div>
